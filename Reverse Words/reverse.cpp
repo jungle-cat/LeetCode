@@ -1,6 +1,13 @@
 /*
  * reverse.cpp
  *
+ *  https://oj.leetcode.com/problems/reverse-words-in-a-string/
+ *
+ *  Given an input string, reverse the string word by word.
+ *  For example,
+ *  Given s = "the sky is blue",
+ *  return "blue is sky the".
+ *
  *  Created on: 2014-10-4
  *      Author: Feng
  */
