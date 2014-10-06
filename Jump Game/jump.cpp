@@ -31,7 +31,6 @@ bool canJump(int A[], int n)
 			continue;
 		for (int j = i+1; j <= i+A[i] && j < n; ++j)
 			tb[j] = true;
-		cout << tb <<endl;
 	}
 	return tb[n-1];
 }
