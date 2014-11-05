@@ -40,19 +40,18 @@ vector<int> inorderTraversal(TreeNode *root)
 		return ret;
 
 	stack<TreeNode*> s;
-	s.push(root);
-	TreeNode* prev = nullptr;
-
-	while (!s.empty()) {
-		TreeNode* p = s.top();
-		if (p->left == nullptr || prev == p->left) {
-			s.pop();
-			prev = p;
-			ret.push_back(p->val);
-			if (p->right) s.push(p->right);
+	TreeNode* p = root;
+	while (p || !s.empty()) {
+		if (p) {
+			s.push(p);
+			p = p->left;
 		}
-		else
-			s.push(p->left);
+		else {
+			TreeNode* t = s.top();
+			s.pop();
+			ret.push_back(t->val);
+			p = t->right;
+		}
 	}
 	return move(ret);
 }
