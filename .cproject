@@ -16,7 +16,12 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1210859530." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.346901069" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.1118569127" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
-							<builder buildPath="${workspace_loc:/LeetCode}/Debug" id="cdt.managedbuild.tool.gnu.builder.mingw.base.2024931309" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<builder buildPath="${workspace_loc:/LeetCode}/Debug" id="cdt.managedbuild.tool.gnu.builder.mingw.base.2024931309" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
+								</outputEntries>
+							</builder>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1943039534" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.530083229" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -42,18 +47,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="0010. Populating Next Right Pointers in Each Node|0004. Reverse Integer|0007. Linked List Cycle|0003. Same Tree|Validate Binary Search Tree|0001. Single Number|0006. Unique Binary Search Trees|0008. Binary Tree Preorder Traversal|0009. Binary Tree Preorder Traversal|0005. Best Time to Buy and Sell Stock II|0002. Maximum Depth of Binary Tree" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0001. Single Number"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0002. Maximum Depth of Binary Tree"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0003. Same Tree"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0004. Reverse Integer"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0005. Best Time to Buy and Sell Stock II"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0006. Unique Binary Search Trees"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0007. Linked List Cycle"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0008. Binary Tree Preorder Traversal"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0009. Binary Tree Preorder Traversal"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0010. Populating Next Right Pointers in Each Node"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Validate Binary Search Tree"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -99,7 +93,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="0010. Populating Next Right Pointers in Each Node|0004. Reverse Integer|0007. Linked List Cycle|0003. Same Tree|Validate Binary Search Tree|0001. Single Number|0006. Unique Binary Search Trees|0008. Binary Tree Preorder Traversal|0009. Binary Tree Preorder Traversal|0005. Best Time to Buy and Sell Stock II|0002. Maximum Depth of Binary Tree" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="0010. Populating Next Right Pointers in Each Node|0004. Reverse Integer|0007. Linked List Cycle|0022. Search Insert Position|0003. Same Tree|0001. Single Number|0009. Binary Tree Preorder Traversal|0008. Binary Tree Preorder Traversal|0006. Unique Binary Search Trees|0005. Best Time to Buy and Sell Stock II|0002. Maximum Depth of Binary Tree" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0001. Single Number"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0002. Maximum Depth of Binary Tree"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0003. Same Tree"/>
@@ -109,8 +103,8 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0007. Linked List Cycle"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0008. Binary Tree Preorder Traversal"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0009. Binary Tree Preorder Traversal"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0010. Populating Next Right Pointers in Each Node"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Validate Binary Search Tree"/>
+						<entry excluding="0022. Search Insert Position" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0010. Populating Next Right Pointers in Each Node"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="0022. Search Insert Position"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
